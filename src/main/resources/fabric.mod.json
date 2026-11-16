@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "moonfall_cinematic",
+  "version": "${version}",
+  "name": "Moonfall Cinematic",
+  "description": "A client-side, visual-only Moonfall cinematic overlay for Minecraft 1.21.11.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.borb.moonfall.MoonfallClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
